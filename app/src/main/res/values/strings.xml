@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="flag_switch_text">Flagging Mode</string>
+    <string name="welcome_text">Welcome to Minesweeper</string>
+    <string name="restart_text">Restart</string>
+    <string name="easy_button_text">Easy</string>
+    <string name="medium_button_text">Medium</string>
+    <string name="hard_button_text">Hard</string>
+    <string name="difficulty_select_header">Select your difficulty</string>
+</resources>

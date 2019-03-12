@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="40dp"
+                  android:layout_marginBottom="40dp">
+
+        <hu.ait.minesweeper.view.MinesweeperView
+                android:id="@+id/minesweeperView"
+                android:layout_width="350dp"
+                android:layout_height="350dp"/>
+
+
+    </LinearLayout>
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content">
+
+
+
+        <TextView
+                android:id="@+id/tvStatus"
+                android:textSize="24sp"
+                android:text="@string/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <Switch
+            android:id="@+id/switch1"
+            android:text="@string/flag_switch_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:switchMinWidth="56dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginTop="12dp"/>
+    <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_text"/>
+
+</LinearLayout>
